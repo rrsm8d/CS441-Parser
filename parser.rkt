@@ -12,7 +12,7 @@ A-STMT : (A-ID A-EQUALS A-EXPR)
      | (A-GOTO A-ID)
      | (A-GOSUB A-ID)
      | A-RETURN
-     | A_BREAK
+     | A-BREAK
      | A-END
 A-BOOLEAN : A-TRUE
         | A-FALSE
