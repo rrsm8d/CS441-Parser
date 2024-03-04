@@ -1,6 +1,7 @@
 # CS441-Parser
 # About
 This is an assignment for a simple parser for a language that does not exist. Grammar that was followed for this parser is found in GrammarFall24.txt.
+The project heavily followed the tutorials from https://beautifulracket.com/ if you would like a much better resource for learning.
 
 # Running
 First, you will need an IDE that supports Racket. DrRacket is highly recommended
