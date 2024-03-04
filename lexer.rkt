@@ -1,5 +1,6 @@
 #lang br
 (require brag/support)
+
 (define-lex-abbrev digits
   (char-set "0123456789")
   )
@@ -14,7 +15,8 @@
   (:+ (char-set "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"))
   )
 
-
+; PRE: A string representing a file
+; POST: tokenizes the string and returns it
 (define my-lexer
   (lexer-srcloc
    ["\n" (token 'A-NEWLINE lexeme)]
